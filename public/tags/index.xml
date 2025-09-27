@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on Your Name - Personal Website</title>
+    <link>http://localhost:1313/Ou/tags/</link>
+    <description>Recent content in Tags on Your Name - Personal Website</description>
+    <generator>Hugo -- 0.150.1</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 27 Sep 2025 15:56:44 -0400</lastBuildDate>
+    <atom:link href="http://localhost:1313/Ou/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Github-Pages</title>
+      <link>http://localhost:1313/Ou/tags/github-pages/</link>
+      <pubDate>Sat, 27 Sep 2025 15:56:44 -0400</pubDate>
+      <guid>http://localhost:1313/Ou/tags/github-pages/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>http://localhost:1313/Ou/tags/hugo/</link>
+      <pubDate>Sat, 27 Sep 2025 15:56:44 -0400</pubDate>
+      <guid>http://localhost:1313/Ou/tags/hugo/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Tutorial</title>
+      <link>http://localhost:1313/Ou/tags/tutorial/</link>
+      <pubDate>Sat, 27 Sep 2025 15:56:44 -0400</pubDate>
+      <guid>http://localhost:1313/Ou/tags/tutorial/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Web-Development</title>
+      <link>http://localhost:1313/Ou/tags/web-development/</link>
+      <pubDate>Sat, 27 Sep 2025 15:56:44 -0400</pubDate>
+      <guid>http://localhost:1313/Ou/tags/web-development/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Introduction</title>
+      <link>http://localhost:1313/Ou/tags/introduction/</link>
+      <pubDate>Sat, 27 Sep 2025 15:48:41 -0400</pubDate>
+      <guid>http://localhost:1313/Ou/tags/introduction/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Welcome</title>
+      <link>http://localhost:1313/Ou/tags/welcome/</link>
+      <pubDate>Sat, 27 Sep 2025 15:48:41 -0400</pubDate>
+      <guid>http://localhost:1313/Ou/tags/welcome/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

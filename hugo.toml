@@ -1,0 +1,54 @@
+baseURL = 'https://sz99b4.github.io/Ou/'  # Replace with your GitHub username and repo name
+languageCode = 'en-us'
+title = 'Your Name - Personal Website'
+theme = 'PaperMod'
+
+[params]
+  env = "production"
+  description = "Personal website showcasing my career, team, and thoughts"
+  author = "Your Name"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowShareButtons = true
+  
+  [params.homeInfoParams]
+    Title = "Hi there! 👋"
+    Content = "Welcome to my personal website. Here you'll find information about my career, my team, and my thoughts through various documents and posts."
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/yourusername"
+
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://linkedin.com/in/yourprofile"
+
+[menu]
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 10
+  
+  [[menu.main]]
+    identifier = "team"
+    name = "Team"
+    url = "/team/"
+    weight = 20
+    
+  [[menu.main]]
+    identifier = "career"
+    name = "Career"
+    url = "/career/"
+    weight = 30
+    
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 40
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
