@@ -5,13 +5,24 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   build-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout
+      - name: Checkout (full)
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Show git info (diagnostic)
+        run: |
+          git status --porcelain --branch || true
+          git remote -v || true
+          git rev-parse --abbrev-ref HEAD || true
 
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
@@ -20,6 +31,11 @@ jobs:
 
       - name: Build
         run: hugo --minify
+
+      - name: Show public contents (diagnostic)
+        run: |
+          ls -la public || true
+          echo "Public size: $(du -sh public 2>/dev/null || echo '0')"
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v3
