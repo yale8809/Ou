@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Tutorial on Your Name - Personal Website</title><link>https://sz99b4.github.io/Ou/categories/tutorial/</link><description>Recent content in Tutorial on Your Name - Personal Website</description><generator>Hugo</generator><language>en-us</language><lastBuildDate>Sat, 27 Sep 2025 15:56:44 -0400</lastBuildDate><atom:link href="https://sz99b4.github.io/Ou/categories/tutorial/index.xml" rel="self" type="application/rss+xml"/><item><title>How I Built This Website with Hugo and GitHub Pages</title><link>https://sz99b4.github.io/Ou/posts/setting-up-hugo-website/</link><pubDate>Sat, 27 Sep 2025 15:56:44 -0400</pubDate><guid>https://sz99b4.github.io/Ou/posts/setting-up-hugo-website/</guid><description>&lt;h1 id="how-i-built-this-website-with-hugo-and-github-pages"&gt;How I Built This Website with Hugo and GitHub Pages&lt;/h1&gt;
+&lt;p&gt;Building a personal website doesn&amp;rsquo;t have to be complicated or expensive. In this post, I&amp;rsquo;ll share how I created this site using Hugo, a fast static site generator, and deployed it for free using GitHub Pages.&lt;/p&gt;
+&lt;h2 id="why-hugo"&gt;Why Hugo?&lt;/h2&gt;
+&lt;p&gt;After researching various options, I chose Hugo for several reasons:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Speed&lt;/strong&gt;: Hugo builds sites incredibly fast&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Simplicity&lt;/strong&gt;: Write content in Markdown&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Flexibility&lt;/strong&gt;: Highly customizable with themes&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Free hosting&lt;/strong&gt;: Perfect for GitHub Pages&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;No database&lt;/strong&gt;: Static files are secure and fast&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id="the-tech-stack"&gt;The Tech Stack&lt;/h2&gt;
+&lt;p&gt;Here&amp;rsquo;s what powers this website:&lt;/p&gt;</description></item></channel></rss>
